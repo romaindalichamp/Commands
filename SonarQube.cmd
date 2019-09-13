@@ -1,0 +1,1 @@
+sonar-scanner -Dsonar.projectKey=myproject 
