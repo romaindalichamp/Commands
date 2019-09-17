@@ -1,5 +1,5 @@
 git init
-git add origin "http://...."
+git remote add origin "http://...."
 git pull origin master
 git add --all
 git commit -m "commit infos"
