@@ -3,6 +3,7 @@ git remote add origin "http://...."
 git pull origin master
 git add --all
 git commit -m "commit infos"
+git --set-upstream-to origin/master
 git push origin master
 git branch <branch_name>
 git checkout <branch_name> #or git switch + git fetch
