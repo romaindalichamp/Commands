@@ -16,6 +16,7 @@ git branch <branch_name>
 git checkout <branch_name> #or git switch + git fetch
 
 #git merge
+git checkout <branch_source>
 git merge <branch_name>	#from master branch
 
 #git add execute rights to a file
@@ -28,3 +29,13 @@ git rebase master
 git add *
 git rebase --continue
 git rebase --abort #to cancel the rebase operation
+
+#Download or send a branch
+git push origin <source>:<destination_on_origin>
+git fetch origin <source_on_origin>:<destination>
+
+#remove a branch on origin
+git push origin :<branch_name>
+
+#add a branch with fetch
+git fetch :<branch_name>

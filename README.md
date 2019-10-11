@@ -1,2 +1,4 @@
 # Commands
-Commands i am used to use
+Every day commands
+
+Exercices for Git: https://learngitbranching.js.org/
