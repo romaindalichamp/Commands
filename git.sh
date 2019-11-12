@@ -39,3 +39,9 @@ git push origin :<branch_name>
 
 #add a branch with fetch
 git fetch :<branch_name>
+
+#Git WorkFlow
+git checkout -b dev
+git add .
+git commit -m "modifications"
+git push -u origin dev
