@@ -1,5 +1,6 @@
 # Vault with Spring
-* Nore informations : https://spring.io/guides/gs/vault-config/
+* More informations : https://spring.io/guides/gs/vault-config/
+Vault is a secrets management system allowing you to store sensitive data which is encrypted at rest. It’s ideal to store sensitive configuration details such as passwords, encryption keys, API keys.
 
 ## Run
 This command starts Vault in development mode using in-memory storage without transport encryption.
