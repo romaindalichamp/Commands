@@ -45,3 +45,6 @@ git checkout -b dev
 git add .
 git commit -m "modifications"
 git push -u origin dev
+
+#Set remote branch as upstream for local branch
+git branch --set-upstream-to origin/dev
