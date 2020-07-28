@@ -48,3 +48,6 @@ git push -u origin dev
 
 #Set remote branch as upstream for local branch
 git branch --set-upstream-to origin/dev
+
+# Remove addede files from git but not from local
+git rm --cached path/to/file
